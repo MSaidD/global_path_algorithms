@@ -79,13 +79,3 @@ void printsolution(int* print, size_t size)
 		printf("%d ",print[i]);
 	printf("\n");
 }
-
-//bulunduğum noktadan, gidebilecein noktalara olan mesafelerin belirlenmesi
-	//bu noktaların kümesi A olsun
-//en kısa yolun seçilmesi ve o noktaya geçilmesi
-	//bu noktanın gidilmiş olarak işaretlenmesi
-	//yeni bulunduğum konumdan gidebileceğim noktaları belirlenmesi
-	//bu noktalara olan mesafeler, ilk konumdan bulunduğum konuma gelirken ki aldığım yolun eklenmesi
-		//bu noktaların kümesi B olsun
-//A ve B dizilerinin birleştirilmesi
-	//bu birleştirme esnasında çakışan noktalara en kısa olanın yazılması
